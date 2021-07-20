@@ -14,6 +14,9 @@ body{
     text-align: center;
     font-weight: bold;
 }
+.btn_place{
+    margin-top: 28px;
+}
 
 
 #container{
@@ -58,7 +61,7 @@ body{
 #main .main-contants .main-column{
     float: left;
     width: 320px;
-    height: 1000px;
+    height: 1500px;
     margin-right: 58px;
     /* background-color: aqua; */
 }
@@ -101,5 +104,24 @@ body{
     text-decoration: underline;
     text-decoration-color: #2ac1bc;
 }
+#main .main-contants .main-column .main-items ul{
 
+}
+#main .main-contants .main-column .main-items li{
+    border-top: 1px solid #d7d8da;
+    padding: 6px 0;
+}
+#main .main-contants .main-column .main-items li:last-child{
+    border-bottom: 1px solid #d7d8da;
+}
+#main .main-contants .main-column .main-items li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+#main .main-contants .main-column .main-items li a span{
+    float: right;
+    font-weight: 300;
+}
 
