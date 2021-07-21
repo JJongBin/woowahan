@@ -2,6 +2,8 @@ body{
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
+    background: #fafafa;
+    
 }
 
 .btn{
@@ -61,12 +63,15 @@ body{
 #main .main-contants .main-column{
     float: left;
     width: 320px;
-    height: 1500px;
+    /* height: 1500px; */
     margin-right: 58px;
     /* background-color: aqua; */
 }
 #main .main-contants .main-column:last-child{
     margin-right: 0;
+}
+#main .main-contants .main-column:nth-child(2) .main-items:first-child{
+    background-image: none;
 }
 #main .main-contants .main-column .main-items{
     margin-top: 80px;
@@ -122,6 +127,28 @@ body{
 }
 #main .main-contants .main-column .main-items li a span{
     float: right;
+    font-weight: 300;
+}
+#main .main-contants .main-column .main-items .milk{
+    display: block;
+    padding-top: 45px;
+}
+#main .main-contants .main-column .main-items .news {
+    padding: 15px 0;
+}
+#main .main-contants .main-column .main-items a dl dt {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#main .main-contants .main-column .main-items a dl dt span{
+    float: left;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 12px;
+}
+#main .main-contants .main-column .main-items a dl dd{
+    font-size: 14px;
     font-weight: 300;
 }
 
