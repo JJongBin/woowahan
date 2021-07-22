@@ -67,9 +67,10 @@ body{
     margin-top: 22px;
     z-index: 100;
     background-color: transparent;
-    background-color: #2ac1bc;
+    
 }
 #main-menu li{
+    display: flex;
 }
 #main-menu li a{
     font-size: 48px;
@@ -81,6 +82,30 @@ body{
     text-decoration: underline;
     text-decoration-color: #2ac1bc;
     text-underline-position: under;
+}
+#main-menu .sub-menu{
+    position: absolute;
+    left: 236px;
+    z-index: 100;
+    background-color: transparent;
+}
+#main-menu li:nth-child(3) .sub-menu{
+    bottom: 3px;
+}
+#main-menu li:nth-child(4) .sub-menu{
+    top: 212px;
+}
+#main-menu .sub-menu li{
+    margin-bottom: 12px;
+    display: flex;
+}
+#main-menu .sub-menu li a{
+    display: inline-block;
+    width: 300px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 4px 0;
 }
 
 
