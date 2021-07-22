@@ -60,6 +60,7 @@ body{
     min-width: 1076px;
     width: 1076px;
     margin: 0 auto;
+    overflow: hidden;
 }
 #main .main-contants .main-column{
     float: left;
@@ -154,10 +155,14 @@ body{
     font-size: 14px;
     font-weight: 300;
 }
+#main .main-contants .main-column .main-items a dl dd:last-child{
+    font-size: 12px;
+    margin-top: 5px;
+}
 
 #main .main-contants .main-column .main-items .font{
     font-size: 14px;
-    
+    display: inline-block;
 }
 #main .main-contants .main-column .main-items .font li{
     float: left;
@@ -167,4 +172,96 @@ body{
     padding: 0;
     border-bottom: 1px solid #afafaf;
 }
+#main .main-contants .main-column .main-items .font li a{
+    font-size: 14px;
+}
+/* #main .main-contants .main-column .main-items .font li a::after{
+    content: "";
+    background-image: url("../img/main-font-btnArrow.png");
+    float: right;
+} */
+#main .main-contants .main-column .main-items .font li img{
+    float: right;
+}
+#main .main-contants .main-column .main-items .font li:nth-child(2n){
+    margin-left: 10px;
+}
 
+#main .main-contants .main-column .main-items .outlink{
+    display: block;
+    padding-top: 45px;
+}
+
+
+#footer {
+    position: relative;
+    width: 1081px;
+    margin: 57px auto 0;
+    padding-left: 55px;
+    padding-bottom: 60px;
+    border-top: 1px solid #dedfe0;
+    height: 100px;
+    clear: both;
+}
+#footer .logo{
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+#footer .logo img{
+    width: 36px;
+}
+#footer .footer-info{
+    display: flex;
+    padding-top: 20px;
+}
+#footer .info{
+    
+    width: 50%;
+}
+#footer .info p{
+    font-size: 12px;
+    /* padding-top: 3px; */
+    line-height: 2em;
+    font-weight: 300;
+}
+#footer .info p span{
+    font-weight: 700;
+}
+#footer .info p:nth-child(n+2):nth-child(-n+3){
+    display: inline;
+}
+#footer .info p:last-child{
+    padding-top: 13px;
+}
+#footer .sitemap{
+    width: 50%;
+}
+#footer .sitemap ul{
+    display: flex;
+    float: right;
+}
+#footer .sitemap ul li {
+    /* margin-right: 10px; */
+    display: flex;
+}
+#footer .sitemap ul li::after {
+    content: ' ';
+    display: block;
+    width: 1px;
+    height: 18px;
+    background-color: #dedfe0;
+}
+#footer .sitemap ul li:last-child::after {
+    display: none;
+}
+#footer .sitemap ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#footer .sitemap ul li:first-child a{
+    font-weight: 300;
+}
