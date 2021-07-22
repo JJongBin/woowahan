@@ -101,11 +101,13 @@ body{
 }
 #main-menu .sub-menu li a{
     display: inline-block;
-    width: 300px;
+    /* width: 210px; */
     font-weight: 300;
     font-size: 24px;
     line-height: 28px;
     padding: 4px 0;
+    word-break: keep-all;
+    white-space: nowrap;
 }
 
 
@@ -114,7 +116,7 @@ body{
 
 
 #container{
-    
+    position: relative;
 }
 
 #header{
@@ -355,4 +357,15 @@ body{
 }
 #footer .sitemap ul li:first-child a{
     font-weight: 300;
+}
+.clone{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.clone p{
+    display: inline;
+    font-size: 40px;
+    font-weight: 500;
 }
